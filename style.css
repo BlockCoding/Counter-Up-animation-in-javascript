@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #d3cce3, #e9e);
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+
+}
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+.container #facebook{
+    font-size: 60px;
+    color: #3b5998;
+}
+.container #youtube {
+    font-size: 60px;
+color: #ff0000;
+}
+.container #twitter {
+    font-size: 60px;
+    color: #1da1f2;
+}
+@media (max-width: 580px){
+    body{
+        flex-direction: column;
+    }
+}
